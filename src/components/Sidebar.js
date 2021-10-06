@@ -15,12 +15,12 @@ function Sidebar({ topAnime }) {
                                 <div className="font-semibold text-sm mb-2">Start Date: {anime.start_date}</div>
                                 <div className="font-semibold text-sm mb-2">End Date: {anime.end_date}</div>
                             </div>
-                            <div class="px-4 pt-1 pb-2">
+                            <div className="px-4 pt-1 pb-2">
                                 <a 
                                     href={anime.url} 
                                     target="_blank" 
                                     rel="noreferrer">
-                                    <span class="inline-block bg-gray-300 hover:bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">More...</span>
+                                    <span className="inline-block bg-gray-300 hover:bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">More...</span>
                                 </a>
                                 
                             </div>

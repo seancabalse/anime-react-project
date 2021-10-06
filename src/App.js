@@ -31,7 +31,6 @@ function App() {
 
   useEffect(() => {
     getTopAnime();
-    console.log(topAnime);
   },[]);
 
   console.log(topAnime);
