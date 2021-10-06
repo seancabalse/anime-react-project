@@ -42,7 +42,7 @@ function App() {
         searchAnime={searchAnime}
         search={search}
         setSearch={setSearch} />
-      <div>
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
         <Sidebar 
           topAnime={topAnime} />
         <Library 
