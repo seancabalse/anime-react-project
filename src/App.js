@@ -38,7 +38,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header
+        searchAnime={searchAnime}
+        search={search}
+        setSearch={setSearch} />
       <div>
         <Sidebar 
           topAnime={topAnime} />
